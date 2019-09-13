@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	}
+
+.kotak{
+	margin: 10px auto;
+	width: 1150px;
+	background: -moz-linear-gradient(black, blue); 
+	width: inherit;
+	height: 250px;
+}
