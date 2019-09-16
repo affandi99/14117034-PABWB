@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="header">
+<div id="headbox">
+</div></div>
+<div style="margin-top:5px; text-align:center; color:#000; font-size:21px;" id="clock"></div>
+			<script type="text/javascript">
+			<!--
+			function startTime() {
+				var today=new Date(),
+					curr_hour=today.getHours(),
+					curr_min=today.getMinutes(),
+					curr_sec=today.getSeconds();
+			 curr_hour=checkTime(curr_hour);
+				curr_min=checkTime(curr_min);
+				curr_sec=checkTime(curr_sec);
+				document.getElementById('clock').innerHTML=curr_hour+":"+curr_min+":"+curr_sec;
+			}
+			function checkTime(i) {
+				if (i<10) {
+					i="0" + i;
+				}
+				return i;
+			}
+			setInterval(startTime, 500);
+			//-->
+			</script>
+            
+            <center>
+<div class="tanggal">
+<script>
+
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var dayarray=new Array("Minggu","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu")
+var montharray=new Array("Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember")
+document.write("<b><i><u>"+dayarray[day]+", "+daym+" "+montharray[month]+" "+year+"</b></i></u>")
+
+</script>
+</div>
+</center>
+</marquee>
+
+
+<div id="footer">
+<div id="footerbox">
+</div></div>
+</body>
+</html>
