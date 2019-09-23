@@ -1,0 +1,20 @@
+body{
+ background-image:url(Pemandangan-Laut-dan-Perahu-Layar.jpg);
+}
+
+.kotaktransparan{
+
+ background:rgba(0, 0, 0, 0.39);
+ box-shadow: 0px 0px 0px 0px;
+ border-radius:5px;
+ padding:20px;
+}
+
+.kotaktransparan h2{
+ color:#FFF;
+ text-align:center;
+}
+
+.kotaktransparan h4{
+ color:#FFF;
+}
