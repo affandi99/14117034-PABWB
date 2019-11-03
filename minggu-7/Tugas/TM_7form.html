@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas 1</title>
+</head>
+<body>
+	<form method="post" action="TM_7hasil.php" enctype="multipart/form-data">
+		<label>Nama : </label><br>
+		<input type="text" name="nama" required="required"><br><br>
+		<label>Alamat : </label><br>
+		<input type="text" name="alamat"><br><br>
+		<label>Jenis Kelamin : </label><br>
+		<input type="radio" name="kelamin" value="Perempuan">Perempuan<br>
+		<input type="radio" name="kelamin" value="Laki-Laki">Laki-Laki<br><br>
+		<label>Golongan Darah : </label><br>
+		<select name="gd">
+		  <option value="O">O</option>
+		  <option value="A">A</option>
+		  <option value="B">B</option>
+		  <option value="AB">AB</option>
+		</select>
+		<br><br>
+		<label>Hoby : </label><br>
+		<input type="checkbox" name="hobi1" value="Membaca"> Membaca<br>
+		<input type="checkbox" name="hobi2" value="Menangis"> Menangis<br>
+		<input type="checkbox" name="hobi3" value="Olahraga"> Olahraga<br>
+        <input type="checkbox" name="hobi4" value="Melukis"> Melukis<br><br>
+		<label>Keterangan : </label><br>
+		<textarea name="keterangan" rows="7" cols="40"> </textarea>
+		<br><br><br>
+		<input type="submit" value="send" name="process">
+	</form>
+</body>
+</html>
